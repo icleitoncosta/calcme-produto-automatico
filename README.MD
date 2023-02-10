@@ -4,6 +4,15 @@
 
 ## Como isso funciona?
 
+Você pode executar comandos como:
+```bash
+# Retorne produtos
+calcme --orcamentos --qnt 10 --page 5
+
+# Retorne produtos
+calcme --criar-produto
+```
+
 Copie esse repositório utilizando `git clone https://github.com/icleitoncosta/calcme-produto-automatico`
 
 Após clonar use o comando `npm install -g .`
@@ -14,11 +23,21 @@ Após clonar use o comando `npm install -g .`
 Passos para utilizar localmente
 
 ```bash
+# Efetue o clone desse repositório
+git clone https://github.com/icleitoncosta/calcme-produto-automatico
+
+# Utilize o comando para instalar globalmente
+npm install -g . #Não esqueça do ponto
+
 # Configure seu usuario e sua senha
 calcme --user lalaal@gmail.com --password senha@123
 
 # Efetue login
 calcme -l
+
+# Retorne uma lista de orçamentos criados
+calcme --orcamentos --qnt 10 --page 0
+
 ```
 
 ## License
