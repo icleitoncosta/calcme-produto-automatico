@@ -1,0 +1,30 @@
+{
+  "name": "calcme-produto-automatico",
+  "version": "0.0.1",
+  "description": "Criação de produtos do calcme utilizando lonas e adesivos de forma automatica, verificando o melhor tamanho. O projeto é feito via CLI, sem navegador Web.",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "bin": {
+    "calcme": "./bin/index.js"
+  },
+  "keywords": [
+    "calcme",
+    "comunicacao",
+    "visual",
+    "javascript",
+    "nodejs",
+    "cli",
+    "commandline",
+    "grafica"
+  ],
+  "author": "Cleiton Carvalho",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^7.0.1",
+    "calcme-js": "^0.0.2",
+    "chalk": "^5.2.0",
+    "yargs": "^17.6.2"
+  }
+}
