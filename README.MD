@@ -4,7 +4,7 @@
 
 ## Como isso funciona?
 
-Copie esse repositório utilizando `git clone https://www.github....`
+Copie esse repositório utilizando `git clone https://github.com/icleitoncosta/calcme-produto-automatico`
 
 Após clonar use o comando `npm install -g .`
 
