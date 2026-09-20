@@ -22,7 +22,7 @@
   "author": "Cleiton Carvalho",
   "license": "ISC",
   "dependencies": {
-    "boxen": "^7.0.1",
+    "boxen": "^8.0.0",
     "calcme-js": "^0.0.2",
     "chalk": "^5.2.0",
     "yargs": "^17.6.2"
