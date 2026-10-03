@@ -24,7 +24,7 @@
   "dependencies": {
     "boxen": "^7.0.1",
     "calcme-js": "^0.0.2",
-    "chalk": "^5.2.0",
+    "chalk": "^6.0.0",
     "yargs": "^17.6.2"
   }
 }
